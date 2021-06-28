@@ -1,0 +1,60 @@
+
+.logo, img {
+     padding-top: 3px ;
+}
+
+nav {
+    border-bottom: ridge rgb(124, 100, 100);
+    margin-bottom: 30px;
+}
+body {
+    font-family: 'Playfair Display', serif; 
+    font-style:normal; 
+    font-weight: 570;
+    background-color: rgb(221, 216, 216);  
+}
+a { color:black;
+font-family:'Playfair Display', serif ;
+}
+a:active {
+    color: rgb(155, 39, 39)
+}
+
+
+.titulos { 
+
+    font-family: 'DM Serif Text', serif;
+    font-weight: lighter;
+}
+span { color:rgb(155, 39, 39)}
+.container-col-md  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px;
+}
+.seccion2{
+    margin-top: 30px;
+}
+.aside, legend {
+    font-family: 'Playfair Display', serif; 
+    font-style:normal; 
+    font-weight: 570;
+    font-size: 17px;
+}
+#pie {
+    margin-top: 30px;
+    border-top: ridge rgb(124, 100, 100) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.card-img-top {
+    height: 200px;
+}
